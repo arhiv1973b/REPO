@@ -1,0 +1,16 @@
+{
+  "contour_id": "CASE-MACHERET-1997-2026",
+  "node_role": "Verification & Execution Entry Point",
+  "cryptographic_standard": "Ed25519 / SHA-256",
+  "integration_channels": {
+    "metrics_engine": "engine.py",
+    "pool_compiler": "run_sync.sh",
+    "master_state": "master_registry.json"
+  },
+  "operational_axioms": {
+    "non_reversibility": true,
+    "strict_isolation": true,
+    "fallback_mode": "POSIX / Python3"
+  },
+  "status": "active_synchronized"
+}
