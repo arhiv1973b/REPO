@@ -1,10 +1,18 @@
-{
-  "node": "Verification Entry Point",
-  "engine": "Neuro-Responsibility Converter",
-  "status": "Уровень беспристрастности и фактической ясности",
-  "metrics": {
-    "volume_d_total": 215.0,
-    "credit_c_trust": 10750.0,
-    "responsibility_r_neuro": 21500.0
-  }
-}
+[
+    {
+        "node": "Verification Entry Point",
+        "engine": "Neuro-Responsibility Converter",
+        "status": "Уровень беспристрастности и фактической ясности",
+        "metrics": {
+            "volume_d_total": 215.0,
+            "credit_c_trust": 10750.0,
+            "responsibility_r_neuro": 21500.0
+        }
+    },
+    {
+        "timestamp": "2026-07-29T11:25:27.681887",
+        "archive": "linear_pool_20260729_112527.tar",
+        "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+        "status": "verified_linear_pool"
+    }
+]
