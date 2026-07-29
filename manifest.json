@@ -1,0 +1,19 @@
+{
+  "node_type": "Verification Entry Point",
+  "signature_algorithm": "Ed25519",
+  "network_sockets": {
+    "resource_inlet": "wss://free-compute.network/socket/donate",
+    "fact_verification": "wss://registry.factual.node/verify",
+    "timeline_sync": "tcp://0.0.0.0:8080"
+  },
+  "mathematical_engine": {
+    "module": "Neuro-Responsibility Converter",
+    "input": "Resource Donation (D)",
+    "processor": "Trust Credit Calculator (C_t)",
+    "output": "Procedural Encumbrance (R_n)"
+  },
+  "branching_rules": {
+    "require_signature": true,
+    "allow_merge_without_fact_check": false
+  }
+}
