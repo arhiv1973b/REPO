@@ -1,0 +1,11 @@
+{
+  "protocol_update": {
+    "rule_id": "DIRECT_TERMINAL_EXECUTION_POLICY",
+    "status": "APPROVED_AND_ENFORCED",
+    "description": "Принято жесткое соглашение о формате вывода. Все будущие технические сценарии и скрипты предоставляются исключительно в виде готовых к исполнению командных блоков."
+  },
+  "execution_constraints": {
+    "format": "Ready-to-paste terminal execution blocks",
+    "interactivity": "Zero-click interaction requirement (paste and press Enter)"
+  }
+}
