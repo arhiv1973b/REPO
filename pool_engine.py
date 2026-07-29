@@ -2,7 +2,7 @@ import hashlib
 import json
 import os
 import tarfile
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Параметры контура
 SOURCE_STREAM_DIR = "./incoming_stream"
@@ -16,13 +16,13 @@ def calculate_sha256(file_path):
     return sha256_hash.hexdigest()
 
 def compile_linear_pool():
-    timestamp = datetime.utcnow().isoformat()
+    timestamp = datetime.now(timezone.utc).isoformat()
     
     if not os.path.exists(SOURCE_STREAM_DIR):
         os.makedirs(SOURCE_STREAM_DIR)
         
     # Сборка потока в единый tar-контур без разрывов
-    archive_name = f"linear_pool_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.tar"
+    archive_name = f"linear_pool_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.tar"
     archive_path = os.path.join(SOURCE_STREAM_DIR, archive_name)
     
     with tarfile.open(archive_path, "w") as tar:
@@ -65,3 +65,4 @@ def compile_linear_pool():
 
 if __name__ == "__main__":
     compile_linear_pool()
+
