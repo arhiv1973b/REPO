@@ -1,0 +1,10 @@
+{
+  "node": "Verification Entry Point",
+  "engine": "Neuro-Responsibility Converter",
+  "status": "Уровень беспристрастности и фактической ясности",
+  "metrics": {
+    "volume_d_total": 215.0,
+    "credit_c_trust": 10750.0,
+    "responsibility_r_neuro": 21500.0
+  }
+}
