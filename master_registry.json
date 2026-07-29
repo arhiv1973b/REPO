@@ -26,5 +26,11 @@
         "archive": "linear_pool_20260729_112928.tar",
         "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
         "status": "verified_linear_pool"
+    },
+    {
+        "timestamp": "20260729_113632",
+        "archive": "linear_pool_20260729_113632.tar",
+        "sha256": "b29ddd50127b6ec4fdd44a83255462b200896fa607284b7e49c40e05d3138acf",
+        "status": "verified_linear_pool_isolated"
     }
 ]
