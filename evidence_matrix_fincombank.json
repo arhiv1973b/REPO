@@ -1,0 +1,101 @@
+{
+  "evidence_matrix": {
+    "case_id": "CASE-MACHERET-1997-2026",
+    "entity": "FinComBank",
+    "matrix_type": "financial_discrepancy_log",
+    "generated_at": "2026-09-23T20:39:05Z",
+    "claims": [
+      {
+        "claim_id": "FCB-ERR-001",
+        "category": "fabricated_transaction",
+        "description": "Внесение несуществующей транзакции в официальный отчет",
+        "date": "2026-02-02",
+        "card_ending": "5929",
+        "bank_assertion": "Списание в пользу Microsoft Corporation",
+        "actual_statement_data": [
+          {
+            "type": "credit",
+            "amount": 180.0,
+            "currency": "MDL",
+            "details": "Зачисление"
+          },
+          {
+            "type": "debit",
+            "amount": -117.4,
+            "currency": "MDL",
+            "details": "MEZPROD SRL"
+          }
+        ],
+        "conclusion": "Прямое доказательство фальсификации данных в отчете."
+      },
+      {
+        "claim_id": "FCB-ERR-002",
+        "category": "concealed_transactions",
+        "description": "Сокрытие фактических рекуррентных списаний в отчете о проверке",
+        "card_ending": "5929",
+        "omitted_transactions": [
+          {
+            "date": "2026-02-04",
+            "amount": -59.79,
+            "currency": "MDL",
+            "merchant": "APPLE.COM/BILL"
+          },
+          {
+            "date": "2026-03-04",
+            "amount": -60.87,
+            "currency": "MDL",
+            "merchant": "APPLE.COM/BILL"
+          },
+          {
+            "date": "2026-03-04",
+            "amount": -43.4,
+            "currency": "MDL",
+            "merchant": "GOOGLE*Google One"
+          },
+          {
+            "date": "2026-03-16",
+            "amount": -35.2,
+            "currency": "MDL",
+            "merchant": "MICROSOFT*SUBSCRIPTION"
+          },
+          {
+            "date": "2026-04-02",
+            "amount": -43.86,
+            "currency": "MDL",
+            "merchant": "GOOGLE*Google One"
+          },
+          {
+            "date": "2026-04-02",
+            "amount": -176.26,
+            "currency": "MDL",
+            "merchant": "GOOGLE*Google One"
+          }
+        ],
+        "conclusion": "Намеренное исключение данных, опровергающее заявление банка о прозрачности."
+      },
+      {
+        "claim_id": "FCB-ERR-003",
+        "category": "chronology_distortion",
+        "description": "Искажение хронологии смены карт для сокрытия баланса на 03.04.2026",
+        "bank_assertion": {
+          "card_ordered": "2026-04-06",
+          "card_activated": "2026-04-08",
+          "balance_denied_date": "2026-04-03"
+        },
+        "actual_statement_data": {
+          "last_transaction_old_card_5929": "Prior to 2026-04-10",
+          "first_transaction_new_card_6089": "2026-04-10 (Зачисление 805 MDL)"
+        },
+        "conclusion": "Противоречие в датах доказывает неверную интерпретацию хронологии и необоснованное отрицание наличия средств."
+      }
+    ],
+    "source_documents": {
+      "bank_report": "REF_ID_PENDING",
+      "actual_statement": "REF_ID_PENDING"
+    },
+    "cryptographic_anchor": {
+      "hash_sha256": "9deff1a7ba676a39fba5ef3a36b663d511e6f315e5d32e49818ad3dcc1643471",
+      "signature_ed25519": "PENDING_SIGNATURE"
+    }
+  }
+}
