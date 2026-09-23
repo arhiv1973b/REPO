@@ -2,7 +2,7 @@
 
 **Framework:** TI-ULA (Trustless Infrastructure - Universal Legal Anchoring)  
 **Target Manifest:** `evidence_matrix_fincombank.json`  
-**SHA-256 Anchor:** `9deff1a7ba676a39fba5ef3a36b663d511e6f315e5d32e49818ad3dcc1643471`  
+**SHA-256 Anchor:** `35c29a878a005007dec2cc5a76bc289193f8cbd9c9e4e494ee66ae41c30c1b30`  
 
 ---
 
@@ -16,6 +16,7 @@
 
 ### Транзакции и чеки
 - Google Wallet — транзакция 02.02.2026 (MEZPROD SRL: +180 MDL / -117.40 MDL)
+- Google Wallet — транзакция **ClarityCheck** от 06.04.2026 (0.50 USD, ID `897f361c-3948-4d28-80d8-272138ee06c2`)
 - APPLE.COM/BILL — списания 04.02.2026 (-59.79 MDL) и 04.03.2026 (-60.87 MDL)
 - GOOGLE Google One — списания 04.03.2026 (-43.40 MDL), 02.04.2026 (-43.86 MDL и -176.26 MDL)
 - MICROSOFT SUBSCRIPTION — списание 16.03.2026 (-35.20 MDL)
@@ -31,4 +32,4 @@
 - Профиль Google Cloud Jus&Omnes (ID 2180-9690-4075, MasterCard 2944)  
 
 ---
-*Целостность всей цепочки доказательств подтверждена криптографическим хэшем SHA-256 в манифесте релиза (`9deff1a7ba676a39fba5ef3a36b663d511e6f315e5d32e49818ad3dcc1643471`).*
+*Целостность всей цепочки доказательств подтверждена криптографическим хэшем SHA-256 в манифесте релиза (`35c29a878a005007dec2cc5a76bc289193f8cbd9c9e4e494ee66ae41c30c1b30`).*

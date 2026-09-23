@@ -2,7 +2,7 @@
 import hashlib
 import json
 
-EXPECTED_HASH = "9deff1a7ba676a39fba5ef3a36b663d511e6f315e5d32e49818ad3dcc1643471"
+EXPECTED_HASH = "35c29a878a005007dec2cc5a76bc289193f8cbd9c9e4e494ee66ae41c30c1b30"
 FILE_PATH = "evidence_matrix_fincombank.json"
 
 def compute_sha256(path):

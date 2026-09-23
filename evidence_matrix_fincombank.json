@@ -87,6 +87,17 @@
           "first_transaction_new_card_6089": "2026-04-10 (Зачисление 805 MDL)"
         },
         "conclusion": "Противоречие в датах доказывает неверную интерпретацию хронологии и необоснованное отрицание наличия средств."
+      },
+      {
+        "claim_id": "FCB-ERR-004",
+        "category": "digital_wallet_transaction",
+        "description": "Google Wallet transaction receipt for ClarityCheck",
+        "date": "2026-04-06T00:11:00",
+        "amount": 0.5,
+        "currency": "USD",
+        "merchant": "ClarityCheck",
+        "transaction_id": "897f361c-3948-4d28-80d8-272138ee06c2",
+        "conclusion": "Verified digital wallet artifact during the active card transition period in April 2026."
       }
     ],
     "source_documents": {
@@ -94,7 +105,7 @@
       "actual_statement": "REF_ID_PENDING"
     },
     "cryptographic_anchor": {
-      "hash_sha256": "9deff1a7ba676a39fba5ef3a36b663d511e6f315e5d32e49818ad3dcc1643471",
+      "hash_sha256": "35c29a878a005007dec2cc5a76bc289193f8cbd9c9e4e494ee66ae41c30c1b30",
       "signature_ed25519": "PENDING_SIGNATURE"
     }
   }
